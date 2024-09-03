@@ -1,0 +1,209 @@
+body {
+  background: url(../images/bg-body.jpg);
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* style header */
+
+header {
+  min-height: 150px;
+  border-radius: 10px;
+  border: 5px solid;
+  background: url(../images/pexels-goumbik-1410138.jpg) center/cover;
+}
+
+.nav-bar h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.ul-navbar {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ul-navbar li {
+  list-style: none;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+  background: rgba(245, 222, 179, 0.568);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.ul-navbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* code main bg */
+
+.top-main-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.mid-main-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.bottom-main-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.footer-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+/* code title  */
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* code main top */
+
+.top-main-container {
+  background: rgba(245, 222, 179, 0.568);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.top-main {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+/* code main mid */
+
+.mid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.champagne1 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+.champagne2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+.champagne3 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+.champagne4 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+.champagne5 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+.champagne6 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 5px solid;
+}
+
+/* code main bottom  */
+
+.bottom-main-container {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.bottom-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* code footer  */
+
+.footer-container {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.footer-main-container,
+.up {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}

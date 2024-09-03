@@ -1,0 +1,136 @@
+body {
+  background: url(../images/bg-body.jpg);
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* code main BG */
+
+.top-main {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.middle-main {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.bottom-main {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+footer {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+/* style header */
+
+header {
+  min-height: 150px;
+  border-radius: 10px;
+  border: 5px solid;
+  background: url(../images/pexels-goumbik-1410138.jpg) center/cover;
+}
+
+.nav-bar h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.ul-navbar {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ul-navbar li {
+  list-style: none;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+  background: rgba(245, 222, 179, 0.568);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.ul-navbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* code main */
+
+.top-main {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.top-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.top-main-container,
+img {
+  height: 400px;
+}
+
+.middle-main {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.middle-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-main {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.bottom-maim-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*code footer*/
+
+footer {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}

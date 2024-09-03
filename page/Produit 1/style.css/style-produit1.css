@@ -1,0 +1,140 @@
+body {
+  background: url(../style.css/images/bg-body.jpg);
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* style header */
+
+header {
+  min-height: 150px;
+  border-radius: 10px;
+  border: 5px solid;
+  background: url(../style.css/images/pexels-goumbik-1410138.jpg) center/cover;
+}
+
+.nav-bar h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.ul-navbar {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ul-navbar li {
+  list-style: none;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+  background: rgba(245, 222, 179, 0.568);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.ul-navbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* code main bg */
+
+.top-main-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.middle-main {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.bottom-main {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+.footer-container {
+  background: rgba(245, 222, 179, 0.568);
+}
+
+/* code title  */
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* code main top */
+
+.ul-selection ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-selection li {
+  list-style: none;
+  margin: 10px;
+  height: 150px;
+  width: 250px;
+  background: rgba(245, 222, 179, 0.568);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.top-main-container {
+  background: rgba(245, 222, 179, 0.568);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+/* code main mid */
+
+.middle-main {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.middle-main-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+/* code main bottom */
+
+.bottom-main {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 5px solid;
+}
+
+.bottom-main-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-items: center;
+  align-items: center;
+}
